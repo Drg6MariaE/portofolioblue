@@ -14,7 +14,7 @@ function ProjectsSection() {
       <section style={{ background: 'rgba(2, 16, 36, 1)', overflow:'hidden'}}>
         <div style={{display:'flex', margin:'6%'}}>
           <div>
-            <img src="firstproject.png" alt="Savora homepage screenshot" style={{maxWidth:'100%', marginTop:'10%'}}/>
+            <img src={require('../assets/firstproject.png')} alt="Savora homepage screenshot" style={{maxWidth:'100%', marginTop:'10%'}}/>
           </div>
           <div style={{marginTop:'5%'}}>
             <h2 style={{ fontSize: '2rem', letterSpacing: '1px', transition: 'color 0.3s ease'}} onMouseEnter={e => e.target.style.color = '#fff'} onMouseLeave={e => e.target.style.color = '#C1E8FF'}><a href='https://quiet-pudding-37693d.netlify.app'>Savora – Fine Dining Restaurant</a></h2>
@@ -70,7 +70,7 @@ function ProjectsSection() {
               </ul>
           </div>
           <div style={{ flex: 1}}>
-            <img src="sav.png" alt="Savora screenshot" style={{maxWidth:'75%'}}/>
+            <img src={require('../assets/sav.png')} alt="Savora screenshot" style={{maxWidth:'75%'}}/>
           </div>
         </div>
       </section>

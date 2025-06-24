@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import meImage from '../assets/me.png';
 
 function IntroSection() {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ function IntroSection() {
         </button>
       </div>
       <div style={{ flex: '1 1 50%', textAlign: 'center' }}>
-        <img src={require('../assets/me.png')} alt="Portrait of Dragutu Maria Elisa" style={{ width: '100%', marginBottom: '-20rem' }} />
+        <img src={meImage} alt="Portrait of Dragutu Maria Elisa" style={{ width: '100%', marginBottom: '-20rem' }} />
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ function IntroSection() {
         </button>
       </div>
       <div style={{ flex: '1 1 50%', textAlign: 'center' }}>
-        <img src={meImage} alt="Portrait of Dragutu Maria Elisa" style={{ width: '100%', marginBottom: '-20rem' }} />
+          <img src={meImage} alt="Portrait of Dragutu Maria Elisa" style={{ width: '100%', marginBottom: '-20rem' }} />
       </div>
     </section>
   );
